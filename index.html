@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<!-- ICONS -->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+<!--------------------------------------------- NAVBAR ----------------------------------------------------------->
+	<nav class="fixed-top nav__menu">
+		<ul>
+			<li style="float: left;"><a href="#intro">HRISHIKESH KUMAR JHA</a></li>
+			
+			<!--Theme change button-->
+			<li><i class="uil uil-moon change-theme" id="theme-button"></i></li>
+			<li><a href="work-profile.html">Looking for work?</a></li>
+			<li><a href="#achievements">Achievements</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#qualification">Qualification</a></li>
+			<li><a href="#about" class="active-link">About</a></li>
+		</ul>
+	</nav>
+
+<!--------------------------------------------- HEADER ----------------------------------------------------------->
+	<header id="intro">
+		<div class="center">
+			<div>
+				<img src="images/MyPhoto.jpg" id="myPhoto">
+			</div>
+
+			<div>
+				<h1 class="black">Hrishikesh Kumar Jha</h1>
+			</div>
+
+			<div>
+				<h2 class="gray">
+					Software Engineer
+					<br>
+					Senior Analyst at <em><a href="https://www.capgemini.com/in-en/">Capgemini</a></em>
+				</h2>
+			</div>
+		</div>
+	</header>
+
+<!--------------------------------------------- ABOUT ------------------------------------------------------------>
+<div class="container">
+	<section id="about"  class="secStyle">
+		<h2 class="colorHead center">About Me</h2>
+		<div class="row">
+			<div class="col-sm-8 mx-auto" style="margin-bottom: 40px;">
+				<p>
+					Hello, I'm Hrishikesh Kumar Jha. I am always looking for opportunities and challenges which can be meaningful to me.
+					Although, I am a fresher I am eager to learn new things and fulfil my roles and responsibilities.
+					<br>
+					As a software engineer I like to give some real solutions to real problems.
+					<br>
+					I love programming and everything tech related. Apart from that my hobbies are to travel, read books, watching movies, playing games. 
+				</p>
+			</div>
+			<div class="about_info">
+				<div>
+					<span class="about_title">10+</span> <br>
+					<span class="about_desc">Projects <br> Completed</span>
+				</div>
+
+				<div>
+					<span class="about_title">1</span> <br>
+					<span class="about_desc">Companies <br> Worked</span>
+				</div>
+			</div>
+
+			<div class="about_button">
+				<a href="assets/HrishikeshJha_CV.docx" class="button button--flex" download>
+					Download CV<i class="uil uil-download-alt button__icon"></i>
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+<!--------------------------------------------- QUALIFICATION ---------------------------------------------------->
+	<section id="qualification" class="secStyle">
+		<div class="center">
+			<h2 class="colorHead" style="margin-bottom: 20px">Qualification</h2>
+
+			<div class="row">
+				<div class="col-sm-8 mx-auto">
+					<div>
+						<i class="uil uil-graduation-cap qualification__icon"></i>
+						<h4>EDUCATION</h4>
+					</div>
+
+					<div class="qualification__content">
+						<div class="qualification__data">
+							<div>
+								<h3 class="qualification__title">Undergraduation</h3>
+								<span class="qualification__subtitle">PCCOE</span>
+								<div class="qualification__calender">
+									<i class="uil uil-calendar-alt"></i>
+									2016 - 2020
+								</div>
+							</div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<span class="qualification__line"></span>
+							</div>
+						</div>
+
+						<div class="qualification__data">
+							<div></div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<span class="qualification__line"></span>
+							</div>
+
+							<div>
+								<h3 class="qualification__title">HSC</h3>
+								<span class="qualification__subtitle">KVGK</span>
+								<div class="qualification__calender">
+									<i class="uil uil-calendar-alt"></i>
+									2014 - 2016
+								</div>
+							</div>
+						</div>
+
+						<div class="qualification__data">
+							<div>
+								<h3 class="qualification__title">SSC</h3>
+								<span class="qualification__subtitle">KVGK</span>
+								<div class="qualification__calender">
+									<i class="uil uil-calendar-alt"></i>
+									2014
+								</div>
+							</div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<!-- <span class="qualification__line"></span> -->
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--------------------------------------------- SKILLS ----------------------------------------------------------->
+	<section id="skills" class="secStyle">
+		<div class="center">
+			<h2 class="colorHead">Skills</h2>
+
+			<h3 class="colorH3">Technical Skills</h3>
+			<ul>
+				<li>
+					<div class="card">
+					<img src="images/java.jpg" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">JAVA</h5>
+							<p class="card-text black">Proficient</p>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="card">
+					<img src="images/cIcon.png" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">C++</h5>
+							<p class="card-text black">Proficient</p>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="card">
+					<img src="images/angular.png" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">Angular</h5>
+							<p class="card-text black">Intermediate</p>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="card">
+					<img src="images/html-css.jpg" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">HTML & CSS</h5>
+							<p class="card-text black">Proficient</p>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="card">
+					<img src="images/oracle-db.png" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">Oracle Database</h5>
+							<p class="card-text black">Proficient</p>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="card">
+					<img src="images/javascript.jpg" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">JavaScript</h5>
+							<p class="card-text black">Intermediate</p>
+						</div>
+					</div>
+				</li>					
+			</ul>
+
+			<h3 class="colorH3">Functional Skills</h3>
+			<ul>
+				<li>
+					<div class="card">
+					<img src="images/team-building.png" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">Team Building</h5>
+							<p class="card-text black">Working together effectively and with cooperation with team.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card">
+					<img src="images/strategic-planning.jpg" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">Strategic Planning</h5>
+							<p class="card-text black">Creating strategies for company’s overall long-term goals or desires.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card">
+					<img src="images/Interpersonal_Skills.png" class="card-img-top" alt="Avatar">
+						<div class="card-body">
+							<h5 class="card-title black">Interpersonal Skills</h5>
+							<p class="card-text black">Ability to communicate or interact well with other people.</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+<!--------------------------------------------- PROJECTS --------------------------------------------------------->
+	<section id="projects"  class="secStyle">
+		<div class="center">
+			<h2 class="colorHead">Projects</h2>
+
+			<div class="row mx-auto py3 mxn2 mb2 border-bottom" style="max-width: 50rem;">
+				<div class="col-4 px2 mb2">
+					<img src="images/car-rally.jpg" alt="Car Rally Image" style="width: 200px;">
+				</div>
+				<div class="col-8 px2">
+					<h3 class="left-align">Car Rally Game</h3>
+					<p class="left-align">
+						Created a game in C++ in which a car would need to dodge the obstacles and then it will store the score with the player name in a database.
+					</p>
+				</div>
+			</div>
+
+			<div class="row mx-auto py3 mxn2 mb2 border-bottom" style="max-width: 50rem;">
+				<div class="col-4 px2 mb2">
+					<img src="images/automation.jpeg" alt="Automation Image" style="width: 200px;">
+				</div>
+				<div class="col-8 px2">
+					<h3 class="left-align">Automated Form Filling</h3>
+					<p class="left-align">
+						Developed an application in python which would automate some types of form
+						fillings and search-related issues that would otherwise have been tiresome if done
+						manually.
+					</p>
+				</div>
+			</div>
+
+			
+			<div class="row mx-auto py3 mxn2 mb2" style="max-width: 50rem;">
+				<div class="col-4 px2 mb2">
+					<img src="images/online-wallet.jpg" alt="Wallet Image">
+				</div>
+				<div class="col-8 px2">
+					<h3 class="left-align">Online Wallet</h3>
+					<p class="left-align">
+						Developed a web application using Angular and Spring Boot which is like an online wallet and will perform all the functions of a wallet like deposit, credit, show transaction history. 
+					</p>
+					<p class="left"><small><a href="https://github.com/jha-hrishikesh37/Wallet-Application" style="text-decoration: none;" target="_blank">Know More</a></small></p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+<!--------------------------------------------- EXPERIENCE ------------------------------------------------------->
+	<section id="experience"  class="secStyle">
+		<div class="center">
+			<h2 class="colorHead">Work Experiences</h2>
+
+			<div class="row">
+				<div class="col-sm-8 mx-auto">
+					<div>
+						<i class="uil uil-briefcase-alt qualification__icon"></i>
+						<h4>WORK</h4>
+					</div>
+
+					<div class="qualification__content">
+						<div class="qualification__data">
+							<div>
+								<h3 class="qualification__title">National Chemical Laboratory (NCL)</h3>
+								<span class="qualification__subtitle">Data Analyst</span>
+								<div class="qualification__calender">
+									<i class="uil uil-calendar-alt"></i>
+									2019, 2 Months
+								</div>
+							</div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<span class="qualification__line"></span>
+							</div>
+						</div>
+
+						<div class="qualification__data">
+							<div></div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<!-- <span class="qualification__line"></span> -->
+							</div>
+
+							<div>
+								<h3 class="qualification__title">Capgemini</h3>
+								<span class="qualification__subtitle">Full Stack Development (Training)</span>
+								<div class="qualification__calender">
+									<i class="uil uil-calendar-alt"></i>
+									2020, 3 Months
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div>
+				<p>2019, 2 Months</p>
+				<p  class="paraStyle">National Chemical Laboratory (NCL)</p>
+				<p>Data Analyst</p>
+			</div>
+			<div class="top-margin">
+				<p>2020, 3 Months</p>
+				<p class="paraStyle">Capgemini</p>
+				<p>Full Stack Development (Training)</p>
+			</div> -->
+		</div>
+	</section>
+
+<!--------------------------------------------- ACHIEVEMENTS ----------------------------------------------------->
+	<section id="achievements"  class="lastSecStyle">
+		<div class="center">
+			<h2 class="colorHead">Achievements</h2>
+
+			<div class="card border-primary mb-3" style="width: 840px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/nptel.jpg" alt="CertificationLogo">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h4 class="card-title text-primary">DBMS (Database Management System)</h4>
+							<p class="card-text black"><small>Certification from NPTEL</small></p>
+							<p class="card-text black">Covered topics such as Relational Model, SQL, Relational Database Design, Query Processing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card border-primary mb-3" style="width: 840px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/nptel.jpg" alt="CertificationLogo">
+					</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h4 class="card-title text-primary">Introduction to Internet of Things</h4>
+								<p class="card-text black"><small>Certification from NPTEL</small></p>
+								<p class="card-text black">Covered topics such as Basics of Networking, Introduction to Arduino, Introduction to Raspberry Pi.</p>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card border-primary mb-3" style="width: 840px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/coursera.jpg" alt="CertificationLogo">
+					</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h4 class="card-title text-primary">Programming Fundamentals with HTML, CSS and Javascript</h4>
+								<p class="card-text black"><small>Certification from Coursera</small></p>
+								<p class="card-text black">Covered topics such as HTML tags and semantics, CSS styling and Javascript concepts applied on image editing.</p>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card border-primary mb-3" style="width: 840px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/ijast.png" alt="CertificationLogo">
+					</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h4 class="card-title text-primary">Published Research Paper</h4>
+								<p class="card-text black"><small>In International Journal of Advanced Science and Technology, Volume. 29, No.6.</small></p>
+								<p class="card-text black">Paper Title: Boosting Performance of Machine Learning based Melanoma Detection using GLCM Features Extracted with Luminance Chromaticity Color Spaces.</p>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div>
+				<h4>DBMS (Database Management System) certification from NPTEL</h4>
+				<p>
+					Covered topics such as Relational Model, SQL, Relational Database Design, Query Processing.
+				</p>
+			</div>
+			<div class="top-margin">
+				<h4>Introduction to Internet of Things certification from NPTEL</h4>
+				<p>
+					Covered topics such as Basics of Networking, Introduction to Arduino, Introduction to Raspberry Pi. 
+				</p>
+			</div>
+			<div class="top-margin">
+				<h4>Programming Fundamentals with HTML, CSS and Javascript certification from Coursera</h4>
+				<p>
+					Covered topics such as HTML tags and semantics, CSS styling and Javascript concepts applied on image editing.
+				</p>
+			</div>
+			<div class="top-margin">
+				<h4>Published Research Paper in International Journal of Advanced Science and Technology, Volume. 29, No.6. </h4>
+				<p>
+					Paper Title: Boosting Performance of Machine Learning based Melanoma Detection using GLCM Features Extracted with Luminance Chromaticity Color Spaces.
+				</p>
+			</div> -->
+		</div>
+	</section>
+
+</div>
+
+<!---------------------------- SCROLL TOP ----------------->
+<a href="#" class="scrollup" id="scroll-up">
+	<i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<!--------------------------------------------- FOOTER ----------------------------------------------------------->
+<footer>
+	<div class="center">
+		<h3 class="colorHead mb2">Connect With Me</h3>
+
+		<div class="mx2 px2">
+			<a href="https://twitter.com/HrishikeshJha3" target="_blank" class="connect__style">
+				<i class="uil uil-twitter qualification__icon"></i>
+				<span class="font5">Twitter</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="www.linkedin.com/in/hrishikesh-jha-221b7b108" target="_blank" class="connect__style">
+				<i class="uil uil-linkedin qualification__icon"></i>
+				<span class="font5">LinkedIn</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="https://www.facebook.com/hrishikesh.jha.71" target="_blank" class="connect__style">
+				<i class="uil uil-facebook qualification__icon"></i>
+				<span class="font5">Facebook</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="https://www.instagram.com/hrishikesh_jha37/" target="_blank" class="connect__style">
+				<i class="uil uil-instagram-alt qualification__icon"></i>
+				<span class="font5">Instagram</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="https://github.com/jha-hrishikesh37" target="_blank" class="connect__style">
+				<i class="uil uil-github qualification__icon"></i>
+				<span class="font5">Github</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="mailto:jha.hrishikesh37@gmail.com" target="_blank" class="connect__style">
+				<i class="uil uil-envelope-edit qualification__icon"></i>
+				<span class="font5">Email</span>
+			</a>
+		</div>
+	</div>
+</footer>
+
+<!--------------------------------------------- JAVASCRIPT DEFINITION -------------------------------------------->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

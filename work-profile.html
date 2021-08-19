@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<!-- ICONS -->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+<!--------------------------------------------- NAVBAR ----------------------------------------------------------->
+	<nav class="fixed-top">
+		<ul>
+			<li style="float: left;"><a href="index.html#intro">HRISHIKESH KUMAR JHA</a></li>
+
+			<!--Theme change button-->
+			<li><i class="uil uil-moon change-theme" id="theme-button"></i></li>
+			<li><a href="work-profile.html" class="active-link">Looking for work?</a></li>
+			<li><a href="index.html#achievements">Achievements</a></li>
+			<li><a href="index.html#experience">Experience</a></li>
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#skills">Skills</a></li>
+			<li><a href="index.html#qualification">Qualification</a></li>
+			<li><a href="index.html#about">About</a></li>
+		</ul>
+	</nav>
+
+<!--------------------------------------------- HEADER ----------------------------------------------------------->
+	<header id="intro">
+		<div class="center">
+			<div>
+				<img src="images/work-icon.png" id="myPhoto">
+			</div>
+
+			<div>
+				<h1 class="colorH1">Looking for Work?</h1>
+			</div>
+
+			<div class="gray">
+				<h4>
+					I am looking for like-minded people to work with.
+				</h4>
+
+				<h5>
+					If you are a tech enthusiast and would like to work together for some great web development related projects then fill the form below and I will get back to you.
+				</h5>
+			</div>
+		</div>
+	</header>
+
+<!--------------------------------------------- ABOUT ------------------------------------------------------------>
+<div class="container">
+	<form name="RegForm" onsubmit="return validateForm()">
+		<div class="row justify-content-center">
+			<div class="col-auto">
+				<table class="table table-hover table-secondary mx2 mb2 py3 px2 top-margin">
+					<tr>
+						<td><label for="fname">First Name:</label></td>
+						<td><input type="text" name="fname" placeholder="First Name"></td>
+					</tr>
+					<tr>
+						<td><label for="lname">Last Name:</label></td>
+						<td><input type="text" name="lname" placeholder="Last Name"></td>
+					</tr>
+					<tr>
+						<td><label>Select Your Country</label></td>
+						<td>
+							<select type="text" value="" name="country">
+								<option disabled selected value> -- select an option -- </option>
+				                <option>India</option>
+				                <option>Australia</option>
+				                <option>Bangladesh</option>
+				                <option>China</option>
+				                <option>Denmark</option>
+				            </select>
+        				</td>
+					</tr>
+					<tr>
+						<td><label for="mobile">Mobile Number:</label></td>
+						<td><input type="text" name="mobile" placeholder="+919999999999"></td>
+					</tr>
+					<tr>
+						<td><label for="email">Email:</label></td>
+						<td><input type="email" name="email" placeholder="example@example.com"></td>
+					</tr>
+					<tr>
+						<td><label for="skill">Primary Skill:</label></td>
+						<td><input type="text" name="skill" placeholder="Primary Skill"></td>
+					</tr>
+					<tr>
+						<td><label for="resume">Upload Resume:</label></td>
+						<td>
+							<input type="file" name="resume" accept=".doc, .pdf">
+							<br>
+							<small class="color__small">*Only .doc or .pdf file accepted</small>
+						</td>
+					</tr>
+					<tr align="center">
+						<td colspan="2">
+							<input type="submit" name="submit">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</form>
+</div>
+
+
+<!--------------------------------------------- FOOTER ----------------------------------------------------------->
+<footer class="mtop20">
+	<div class="center">
+		<h3 class="colorHead mb2">Connect With Me</h3>
+
+		<div class="mx2 px2">
+			<a href="https://twitter.com/HrishikeshJha3" target="_blank" class="connect__style">
+				<i class="uil uil-twitter qualification__icon"></i>
+				<span class="font5">Twitter</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="www.linkedin.com/in/hrishikesh-jha-221b7b108" target="_blank" class="connect__style">
+				<i class="uil uil-linkedin qualification__icon"></i>
+				<span class="font5">LinkedIn</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="https://www.facebook.com/hrishikesh.jha.71" target="_blank" class="connect__style">
+				<i class="uil uil-facebook qualification__icon"></i>
+				<span class="font5">Facebook</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="https://www.instagram.com/hrishikesh_jha37/" target="_blank" class="connect__style">
+				<i class="uil uil-instagram-alt qualification__icon"></i>
+				<span class="font5">Instagram</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="https://github.com/jha-hrishikesh37" target="_blank" class="connect__style">
+				<i class="uil uil-github qualification__icon"></i>
+				<span class="font5">Github</span>
+			</a>
+		</div>
+
+		<div class="mx2 px2">
+			<a href="mailto:jha.hrishikesh37@gmail.com" target="_blank" class="connect__style">
+				<i class="uil uil-envelope-edit qualification__icon"></i>
+				<span class="font5">Email</span>
+			</a>
+		</div>
+	</div>
+</footer>
+<!--------------------------------------------- JAVASCRIPT DEFINITION -------------------------------------------->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
